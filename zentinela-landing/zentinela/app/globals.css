@@ -1,21 +1,21 @@
-/* app/globals.css — Zentinela IA · papiro + tinta + pigmentos egipcios */
+/* app/globals.css â€” Zentinela IA Â· papiro + tinta + pigmentos egipcios */
 
 :root {
   --papyrus:   #F4EBDB;   /* fondo papiro, como el logo */
   --papyrus-2: #FBF6EC;   /* tarjetas / superficies elevadas */
   --papyrus-3: #EDE1CF;   /* superficie hundida */
-  --ink:       #2A2620;   /* tinta carbón (líneas del logo) */
+  --ink:       #2A2620;   /* tinta carbÃ³n (lÃ­neas del logo) */
   --ink-soft:  #4C463C;
   --muted:     #6E6557;
   --faint:     #9C907D;
   --line:      rgba(42, 38, 32, 0.14);
   --line-2:    rgba(42, 38, 32, 0.28);
 
-  --lapis:     #1E5A8E;   /* lapislázuli — acento / escaneo */
+  --lapis:     #1E5A8E;   /* lapislÃ¡zuli â€” acento / escaneo */
   --lapis-tint: rgba(30, 90, 142, 0.10);
-  --malachite: #2E8C68;   /* malaquita — seguro */
-  --ochre:     #BC8526;   /* ocre dorado — riesgo medio */
-  --oxblood:   #A23A2C;   /* sangre de toro — peligro */
+  --malachite: #2E8C68;   /* malaquita â€” seguro */
+  --ochre:     #BC8526;   /* ocre dorado â€” riesgo medio */
+  --oxblood:   #A23A2C;   /* sangre de toro â€” peligro */
 
   --r-sm: 8px;
   --r:    14px;
@@ -225,13 +225,14 @@ section { padding: 84px 0; position: relative; }
 .plan ul { list-style: none; padding: 0; margin: 18px 0 22px; }
 .plan li { color: var(--ink-soft); font-size: 14.5px; padding: 8px 0 8px 24px; position: relative; border-top: 1px solid var(--line); }
 .plan li:first-child { border-top: none; }
-.plan li::before { content: "✓"; color: var(--malachite); position: absolute; left: 0; font-weight: 700; }
+.plan li::before { content: "âœ“"; color: var(--malachite); position: absolute; left: 0; font-weight: 700; }
 .plan .btn { width: 100%; }
 @media (max-width: 820px) { .plans { grid-template-columns: 1fr; } }
 
 /* CTA final */
 .final { text-align: center; background: var(--papyrus-3); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-.final .eyemark { margin: 0 auto 22px; opacity: .9; }
+.final-logo { height: 96px; width: auto; display: block; margin: 0 auto 22px; }
+@media (max-width: 820px) { .final-logo { height: 78px; } }
 .final h2 { font-size: clamp(28px, 4vw, 44px); max-width: 15em; margin: 0 auto; }
 .final p { color: var(--ink-soft); margin: 16px auto 28px; max-width: 30em; }
 
