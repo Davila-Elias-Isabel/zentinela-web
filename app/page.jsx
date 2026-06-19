@@ -159,8 +159,8 @@ export default function Page() {
                 <div className="l">de estafas llegan por WhatsApp</div>
               </div>
               <div>
-                <div className="n">&lt;3s</div>
-                <div className="l">en darte el veredicto</div>
+                <div className="n">3 s</div>
+                <div className="l">o menos en darte el veredicto</div>
               </div>
               <div>
                 <div className="n safe">0</div>
