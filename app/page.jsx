@@ -127,7 +127,7 @@ export default function Page() {
             <a href="#planes">Planes</a>
           </div>
           <div className="nav-right">
-            <a className="btn btn-primary" href="#demo">Probar gratis</a>
+            <a className="btn btn-primary" href={WA} target="_blank" rel="noreferrer">Probar gratis</a>
           </div>
         </div>
       </nav>
