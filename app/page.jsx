@@ -143,7 +143,7 @@ export default function Page() {
               Reenvía el mensaje y lo sabes en <span className="accent">segundos</span>.
             </h1>
             <p className="lede">
-              Zentinela IA lee el mensaje, revisa el link y te dice si es seguro —
+              Zentinela IA lee el mensaje, revisa el link y te dice si es seguro,
               con la explicación y el consejo. Entiende las estafas de aquí: falso
               BCP, Yape, SUNAT, premios y pedidos sospechosos.
             </p>
